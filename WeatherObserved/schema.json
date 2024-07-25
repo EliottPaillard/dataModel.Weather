@@ -2,19 +2,19 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$schemaVersion": "0.3.4",
   "modelTags": "IUDX",
-  "$id": "https://smart-data-models.github.io/dataModel.Weather/WeatherObserved/schema.json",
+  "$id": "https://eliottpaillard.github.io/dataModel.Weather/WeatherObserved/schema.json",
   "title": "Weather Observed schema - Smart Data Models",
   "description": "An observation of weather conditions at a certain place and time. This data model has been developed in cooperation with mobile operators and the GSMA.",
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+      "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
     },
     {
-      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+      "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/Location-Commons"
     },
     {
-      "$ref": "https://smart-data-models.github.io/dataModel.Weather/weather-schema.json#/definitions/Weather-Commons"
+      "$ref": "https://eliottpaillard.github.io/dataModel.Weather/weather-schema.json#/definitions/Weather-Commons"
     },
     {
       "properties": {
@@ -26,7 +26,7 @@
           "description": "Property. NGSI Entity type. It has to be WeatherObserved"
         },
         "dateObserved": {
-          "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/dateObserved"
+          "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/dateObserved"
         },
         "precipitation": {
           "type": "number",
@@ -131,7 +131,7 @@
         "airTemperatureTSA": {
           "type": "object",
           "description": "Property. Air temperature time series aggregation",
-          "$ref": "https://smart-data-models.github.io/dataModel.Environment/Environment-schema.json#/definitions/TimeSeriesAggregation"
+          "$ref": "https://eliottpaillard.github.io/dataModel.Environment/Environment-schema.json#/definitions/TimeSeriesAggregation"
         }
       }
     }

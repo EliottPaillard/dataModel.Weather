@@ -2,16 +2,16 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$schemaVersion": "0.0.1",
   "modelTags": "",
-  "$id": "https://smart-data-models.github.io/dataModel.Environment/SeaConditions/schema.json",
+  "$id": "https://eliottpaillard.github.io/dataModel.Environment/SeaConditions/schema.json",
   "title": "Sea Conditions schema",
   "description": "This entity contains a harmonised geographic description of sea conditions",
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+      "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
     },
     {
-      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+      "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/Location-Commons"
     },
     {
       "properties": {

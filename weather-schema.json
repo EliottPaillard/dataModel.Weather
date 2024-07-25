@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://smart-data-models.github.io/dataModel.Weather/weather-schema.json",
+  "$id": "https://eliottpaillard.github.io/dataModel.Weather/weather-schema.json",
   "title": "Smart Data Models - Weather base schema",
   "description": "Common definitions of weather data models",
   "definitions": {
